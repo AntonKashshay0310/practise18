@@ -2,12 +2,16 @@
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid black    ;
+    /* outline: 1px solid black    ; */
 }
 
 /* header */
 .header {
     padding: 30px 0;
+    background-color: #000;
+    color: #fff;
+    background: rgb(2,0,36);
+    background-image: linear-gradient(to top,rgba(2,0,36,1) 20%, rgba(9,9,121,1) 55%, rgba(0,255,2,1) 100%);
 }
 
 .header .container {
@@ -17,7 +21,7 @@
 }
 
 .logo {
-    color: #000;
+   
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -35,11 +39,24 @@
  
 }
 .nav__item__link {
-    color: #212121;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+}
+
+/* hero */
+
+.hero {
+    height: 100vh;
+    background-image: url("../images/spaceship-7102944_1280.png"), url("../images/earth-1756274_1280.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 400px, cover;
+    background-position: right top, center;
+}
+.hero__title {
+}
+.hero__button {
 }
